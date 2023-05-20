@@ -4,4 +4,4 @@ document.addEventListener("mousedown", function (mouseEvent) {
 	}
 	mouseEvent.preventDefault();
 	mouseEvent.stopPropagation();
-}, true);
+}, false);
